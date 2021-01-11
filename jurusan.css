@@ -1,0 +1,84 @@
+body,html{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	height: 70px;
+	background-color: rgb(240, 247, 240);																																																																											
+}
+h1{
+	position: unset;
+	padding: 3px;
+	float: left;
+	margin-left: 2%;
+	margin-top: 10px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: black;
+}
+.logo {
+	float: left;
+	width: 250px;
+	height: 70px;
+}
+ul{
+	padding: 9px 30px;
+	display: inline-block;
+	width: auto;
+	float: right;
+	margin-top: 0px;
+}
+li{
+	border: 1px solid;
+	display: inline-block;
+	padding: 15px 20px;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	background-color: rgb(8, 33, 58);
+	margin-left: 0%;
+}
+.active{
+	background-color:rgb(0, 225, 255);
+	color: rgb(59, 226, 37);
+}
+a{
+	text-align: center;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+a:hover{
+	color: black;
+	transition: 0.5s;
+	background-color:lime;
+}
+#layout{
+	background-color:rgba(22, 155, 104, 0.61) ;
+}
+.deskripsi img{
+	margin-top: -15px;
+	margin-left: 30px;
+	float: left;
+	padding: 15px;
+}
+.deskripsi h3{
+	border: 1px solid;
+	padding: 20px 25px;
+	background-color: chartreuse;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 20%;
+	margin-right: 50px;
+}
+.deskripsi p{
+	text-align: left;
+	margin-left: 20%;
+	margin-right: 50px;
+}
+#copyright h4{
+	margin-bottom: 0%;
+	border: 1px solid;
+	padding: 20px 25px;
+	background-color: rgb(7, 7, 7);
+	color: cornsilk;
+	position: center;
+}
